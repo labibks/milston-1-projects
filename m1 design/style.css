@@ -1,10 +1,21 @@
-.nk{
-    background-color:rgb(186, 248, 94);
-    height: 300px; width: 350px;
-    margin: 20px; margin-left: 385px;
-    padding: 20px;  text-align: center; font-size: larger;
-    border-radius: 50px 50px 70px 80px; box-shadow: 10px 30px 10px;color: blueviolet;
-    
+ 
+*{
+    background-color: color-mix(in xyz-d50, color percentage, color percentage);
+}
+.nk {
+
+    height: 200px;
+    width: 200px;
+    height: 300px;
+    width: 350px;
+    margin: 20px;
+    margin-left: 385px;
+    padding: 3px;
+    text-align: center;
+    font-size: larger;
+    border-radius: 20px 20px 30px 40px;
+    box-shadow: 10px 10px 9px;
+    color: rgb(11, 194, 245);
 }
 .kk{
     text-decoration: underline;
@@ -30,4 +41,36 @@ p{
 }
 .in{
     width: 100px; height: 30px; border: 2px solid;
+}
+
+.abt{border: 2px solid;
+    height: 25px;
+    width: 220px;
+    size: 25px;
+    border-radius: 40px;
+     
+}
+select{
+    border: 2px solid;
+        height: 25px;
+        width: 220px;
+
+}
+form{
+    background-color: rgb(164, 244, 244);
+}
+h4{
+    font-size: large; background-color: aquamarine; height: 35px; width: 170px;
+    text-align: center; padding-top: 12px;
+}
+h3{
+    font-size: large;
+        background-color: rgb(114, 109, 108);
+        height: 35px;
+        width: 170px;
+        text-align: center;
+        padding-top: 12px;color: rgb(142, 237, 9);
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; color: gold; text-align: center;
 }
